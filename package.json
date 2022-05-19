@@ -1,0 +1,13 @@
+{
+  "name": "prettier-config-belialuin",
+  "description": "Shared prettier config to use across multiple projects.",
+  "version": "0.1.0",
+  "main": "index.json",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "repository": {},
+  "homepage": ""
+}
