@@ -6,4 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/leeorf/prettier-config-belialuin/commits/HEAD
+## [1.0.0] - 2022-05-19
+### Added
+- This CHANGELOG file to track the project evolution
+and changes from a user perspective.
+- Prettier config to be shared across multiple projects.
+
+[Unreleased]: https://github.com/leeorf/prettier-config-belialuin/compare/v1.0.0..HEAD
+[1.0.0]: https://github.com/leeorf/prettier-config-belialuin/releases/tag/v1.0.0
+
