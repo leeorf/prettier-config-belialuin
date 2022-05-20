@@ -49,7 +49,7 @@ modifications, e.g:
 
 ```js
 module.exports = {
-  ...require('prettier-config-belialuins'),
+  ...require('prettier-config-belialuin'),
   semi: false,
 };
 ```
