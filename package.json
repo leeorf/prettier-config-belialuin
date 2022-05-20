@@ -8,8 +8,10 @@
     "prettier",
     "prettier-config"
   ],
-  "repository": {},
-  "homepage": "",
+  "repository": {
+    "url": "https://github.com/leeorf/prettier-config-belialuin"
+  },
+  "homepage": "https://github.com/leeorf/prettier-config-belialuin",
   "scripts": {
     "safety-check": "git pull && node tasks/check-working-directory.js && yarn --frozen-lockfile",
     "preversion": "yarn safety-check"
