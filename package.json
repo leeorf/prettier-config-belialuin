@@ -2,7 +2,7 @@
   "name": "prettier-config-belialuin",
   "description": "Shared prettier config to use across multiple projects.",
   "version": "1.0.1",
-  "main": "index.json",
+  "main": ".prettierrc.json",
   "license": "MIT",
   "keywords": [
     "prettier",
@@ -13,7 +13,11 @@
   },
   "homepage": "https://github.com/leeorf/prettier-config-belialuin",
   "scripts": {
+    "format": "prettier --write \"*.{js,json,md}\"",
     "safety-check": "git pull && node tasks/check-working-directory.js && yarn --frozen-lockfile",
-    "preversion": "yarn safety-check"
+    "preversion": "yarn format && yarn safety-check"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
   }
 }
