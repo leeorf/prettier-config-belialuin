@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.2] - 2022-05-20
+
+### Added
+
+- Prettier to format code using the style exported from this package.
+
 ## [1.0.1] - 2022-05-19
 
 ### Added
@@ -27,6 +33,7 @@ and this project adheres to
 - Prettier config to be shared across multiple projects.
 
 [unreleased]:
-  https://github.com/leeorf/prettier-config-belialuin/compare/v1.0.1..HEAD
+  https://github.com/leeorf/prettier-config-belialuin/compare/v1.0.2..HEAD
+[1.0.2]: https://github.com/leeorf/prettier-config-belialuin/releases/tag/v1.0.2
 [1.0.1]: https://github.com/leeorf/prettier-config-belialuin/releases/tag/v1.0.1
 [1.0.0]: https://github.com/leeorf/prettier-config-belialuin/releases/tag/v1.0.0
