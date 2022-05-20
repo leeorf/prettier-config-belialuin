@@ -9,5 +9,9 @@
     "prettier-config"
   ],
   "repository": {},
-  "homepage": ""
+  "homepage": "",
+  "scripts": {
+    "safety-check": "git pull && node tasks/check-working-directory.js && yarn --frozen-lockfile",
+    "preversion": "yarn safety-check"
+  }
 }
