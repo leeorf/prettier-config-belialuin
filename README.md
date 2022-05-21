@@ -1,14 +1,14 @@
 # prettier-config-belialuin
 
-> Shared prettier config to use across multiple projects
+> Shared Prettier config to use across multiple projects.
 
 ## Getting started
 
-First you need [prettier](https://github.com/prettier/prettier) installed in
+First you need [Prettier](https://github.com/prettier/prettier) installed in
 your project. Check the
 [Install Prettier](https://prettier.io/docs/en/install.html) guide.
 
-After installing prettier, to install `prettier-config-belialuin` in your
+After installing Prettier, to install `prettier-config-belialuin` in your
 project, you will need to run the following command using
 [Yarn](https://yarnpkg.com/en/):
 

@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-belialuin",
-  "description": "Shared prettier config to use across multiple projects.",
+  "description": "Shared Prettier config to use across multiple projects.",
   "version": "1.0.2",
   "main": ".prettierrc.json",
   "license": "MIT",
