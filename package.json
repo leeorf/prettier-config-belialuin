@@ -9,9 +9,11 @@
     "prettier-config"
   ],
   "repository": {
+    "type": "git",
     "url": "https://github.com/leeorf/prettier-config-belialuin"
   },
   "homepage": "https://github.com/leeorf/prettier-config-belialuin",
+  "author": "Leo Rodrigues <leo.rf.dev@gmail.com>",
   "scripts": {
     "format": "prettier --write \"*.{js,json,md}\"",
     "safety-check": "git pull && node tasks/check-working-directory.js && yarn --frozen-lockfile",
