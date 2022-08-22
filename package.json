@@ -10,6 +10,9 @@
     "format": "prettier . --write --ignore-unknown",
     "format:check": "prettier .  --check --ignore-unknown"
   },
+  "engines": {
+    "node": ">=14.17.0"
+  },
   "lint-staged": {
     "*": [
       "prettier --write --ignore-unknown"
@@ -21,12 +24,16 @@
   ],
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.2.5",
     "commitlint-config-belialuin": "^1.1.0",
     "cz-conventional-changelog": "^3.3.0",
+    "dotenv": "^16.0.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3"
   },
   "peerDependencies": {
     "prettier": "^2.7.1"
