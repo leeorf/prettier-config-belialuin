@@ -6,7 +6,7 @@
   "author": "Leonardo Rodrigues <leo.rf.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "preinstall": "husky install",
+    "prepare": "husky install",
     "format": "prettier . --write --ignore-unknown",
     "format:check": "prettier .  --check --ignore-unknown"
   },
