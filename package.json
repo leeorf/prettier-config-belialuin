@@ -6,13 +6,19 @@
   "author": "Leonardo Rodrigues <leo.rf.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "preinstall": "husky install"
+    "preinstall": "husky install",
+    "format": "prettier . --write --ignore-unknown",
+    "format:check": "prettier .  --check --ignore-unknown"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "commitizen": "^4.2.5",
     "commitlint-config-belialuin": "^1.1.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
   }
 }
