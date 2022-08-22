@@ -15,6 +15,10 @@
       "prettier --write --ignore-unknown"
     ]
   },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "commitizen": "^4.2.5",
