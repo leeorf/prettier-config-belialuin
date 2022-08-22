@@ -5,6 +5,7 @@
   "repository": "git@github.com:leeorf/prettier-config-belialuin.git",
   "author": "Leonardo Rodrigues <leo.rf.dev@gmail.com>",
   "license": "MIT",
+  "files": [],
   "scripts": {
     "prepare": "husky install",
     "format": "prettier . --write --ignore-unknown",
