@@ -1148,9 +1148,9 @@ commitizen@^4.0.3, commitizen@^4.2.5:
     strip-json-comments "3.1.1"
 
 commitlint-config-belialuin@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/commitlint-config-belialuin/-/commitlint-config-belialuin-1.1.0.tgz#7820471f6265d46c1a52d18b0f508a31010d7627"
-  integrity sha512-ZHvkkFzjUhjvnF/3FKL7UT5LJPB0Wz+XwzdvMMhzpQrLxYTZfTMCw8RQv4NzmseQ+rPW/LND6oZ806WTSfhILg==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/commitlint-config-belialuin/-/commitlint-config-belialuin-1.2.0.tgz#3e9ba0a9f50701e2aeb9e73b8d585310256f7c8e"
+  integrity sha512-UUlxXEX59tCF0bGP2D2IzFGvsg1LD0Uw1X0rgS5jaAZpDOkTnZhF/N4eDEpurlxONgTN8IYm//8UVQAUH/d/iw==
   dependencies:
     "@commitlint/config-conventional" "^17.0.3"
 
