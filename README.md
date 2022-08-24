@@ -8,9 +8,9 @@
 yarn add -D prettier prettier-config-belialuin
 ```
 
-## Usage
+## Getting started
 
-### With package.json
+### Config in `package.json`:
 
 You can reference it in your `package.json`:
 
@@ -22,7 +22,7 @@ You can reference it in your `package.json`:
 }
 ```
 
-### With a dedicated commitlint config
+### With a dedicated `prettier` config:
 
 If you don’t want to use `package.json`, you can use any of the supported
 extensions to export a string:
@@ -43,3 +43,66 @@ module.exports = {
   semi: false,
 };
 ```
+
+## Usage
+
+> **_NOTE:_**: This is just a recommendation. At least is how I use it nowadays.
+
+In your `package.json` create 2 scripts:
+
+1. Format your files;
+2. Check if prettier has been ran across your files (can be useful in ci pipelines).
+
+```json
+{
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  }
+}
+```
+
+You can even enhance your workflow and combine with [husky](https://typicode.github.io/husky) and [lint-staged](https://github.com/okonet/lint-staged) as a `pre-commit` hook.
+
+To format files before they are commited you can use Husky's `pre-commit` hook along with lint-staged:
+
+1. Install husky and lint-staged
+
+```sh
+yarn add -D husky lint-staged
+```
+
+2. Enable Git hooks
+
+```sh
+yarn husky install
+```
+
+### Add hook
+
+```sh
+npx husky add .husky/pre-commit "yarn lint-staged"
+```
+To automatically have Git hooks enabled after install, edit `package.json`
+
+```json
+{
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
+```
+
+Now in your package json, define file patterns of your `lint-staged` command:
+
+```json
+{
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  },
+}
+```
+
+
