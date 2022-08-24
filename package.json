@@ -7,7 +7,7 @@
   "license": "MIT",
   "files": [],
   "scripts": {
-    "prepare": "",
+    "prepare": "husky install",
     "format": "prettier . --write --ignore-unknown",
     "format:check": "prettier .  --check --ignore-unknown"
   },
